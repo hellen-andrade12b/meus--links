@@ -61,4 +61,5 @@ div a{
 div a:hover{
     background-color: hsl(75, 94%, 57%); 
     color: #141414;
+    transition: 0.7s;
 }
