@@ -21,10 +21,10 @@ div{
     border-radius:12px;
 
 }
-h,p,a{
+h1,p,a{
     color: #fff;
 }
-div ing {
+div img {
 border-radius: 50%;
 margin-bottom: 24px;
 }
@@ -32,4 +32,33 @@ div h1{
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
+    margin-bottom: 4px;
+}
+div strong{
+color: hsl(75, 94%, 57%);
+font-size: 14px;
+line-height: 21px;
+}
+div p{
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 21px;
+}
+div a + a{
+
+}
+div a{
+    display: block;
+    margin-top: 16px;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+div a:hover{
+    background-color: hsl(75, 94%, 57%); 
+    color: #141414;
 }
